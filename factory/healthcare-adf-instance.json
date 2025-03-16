@@ -1,0 +1,9 @@
+{
+	"name": "healthcare-adf-instance",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d38942ac-bbdf-4f45-a4da-b95cf7bed783",
+		"tenantId": "707c861d-6374-4af3-b74e-404192474f68"
+	}
+}
