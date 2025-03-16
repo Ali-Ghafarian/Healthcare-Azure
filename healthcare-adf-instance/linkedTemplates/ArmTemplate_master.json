@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'storagegen2_ls'"
 		},
+		"healthcare_adb_ls_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'healthcare_adb_ls'"
+		},
 		"hos_db_generic_ls_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "healthcare-project-sqlserver.database.windows.net"
@@ -63,6 +67,9 @@
 					},
 					"storagegen2_ls_accountKey": {
 						"value": "[parameters('storagegen2_ls_accountKey')]"
+					},
+					"healthcare_adb_ls_accessToken": {
+						"value": "[parameters('healthcare_adb_ls_accessToken')]"
 					},
 					"hos_db_generic_ls_properties_typeProperties_server": {
 						"value": "[parameters('hos_db_generic_ls_properties_typeProperties_server')]"

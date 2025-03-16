@@ -11,6 +11,9 @@
 		"storagegen2_ls_accountKey": {
 			"value": ""
 		},
+		"healthcare_adb_ls_accessToken": {
+			"value": ""
+		},
 		"hos_db_generic_ls_properties_typeProperties_server": {
 			"value": "healthcare-project-sqlserver.database.windows.net"
 		},
