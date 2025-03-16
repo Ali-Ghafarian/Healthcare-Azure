@@ -1,0 +1,13 @@
+{
+	"name": "storagegen2_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "an ls that I can use to move data from emr databases to datalake",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://healthcarestoragegen2.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDlCNDQxQ0ZGLUM1ODgtNDE2Ri05OTQ1LUQ1OEY2Njk1N0VCM19iNjNmOWQzNS0yZDg4LTQ5NTEtYmFlOS1kZTVmMzUxZGI1MzkiDQp9"
+		}
+	}
+}
